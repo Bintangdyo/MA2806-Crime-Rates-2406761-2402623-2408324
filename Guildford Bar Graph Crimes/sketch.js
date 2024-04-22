@@ -61,7 +61,7 @@
    fill(245);
    textSize(18);
    textAlign(LEFT);
-   text("Woking Crime Rate (2023)", margin/8, 50);
+   text("Guildford Crime Rate (2023)", margin/8, 50);
    
    
    
