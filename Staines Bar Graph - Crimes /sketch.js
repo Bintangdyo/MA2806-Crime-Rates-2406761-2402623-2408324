@@ -14,14 +14,14 @@
  let graphBaseLine;
  
  function preload(){
-   dataset = loadTable("soybeans-data.csv", "header");
+   dataset = loadTable("Staines-Crime-data.csv", "header");
  }
  
  function setup(){
    createCanvas(1500, 1500);
    
-   minVal = min(dataset.getColumn("Animal feed (t)"));
-   maxVal = max(dataset.getColumn("Animal feed (t)"));
+   minVal = min(dataset.getColumn("Crime Rates (t)"));
+   maxVal = max(dataset.getColumn("Crime Rates (t)"));
    console.log("Min: "+minVal);
    console.log("Max: "+maxVal);
    
