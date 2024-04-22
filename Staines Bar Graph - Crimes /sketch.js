@@ -71,7 +71,7 @@
    displayAxis(margin/2, graphBaseLine, 1, maxVal, scale, 1);
    
    textAlign(RIGHT);
-   text("Source: Our World In Data", width-margin/8, height-margin/8);
+   text("Source: Surrey Police, width-margin/8, height-margin/8);
  }
  
  function displayAxis(x, y, mini, maxi, scale, interval){
