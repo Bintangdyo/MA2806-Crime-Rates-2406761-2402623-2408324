@@ -6,7 +6,7 @@
  let margin = 200;
  
  let scale = 1;
- let spacing = 100;
+ let spacing = 60;
  
  let maxVal;
  let minVal;
@@ -18,7 +18,7 @@
  }
  
  function setup(){
-   createCanvas(1500, 800);
+   createCanvas(1000, 750);
    
    minVal = min(dataset.getColumn("Crime Rates (t)"));
    maxVal = max(dataset.getColumn("Crime Rates(t)"));
@@ -51,7 +51,7 @@
      //BARS
      
      fill(105, 155, 255);
-     rect(x, y, spacing/4, -animalFeed);
+     rect(x, y, spacing/3, -animalFeed);
    }
    
    
