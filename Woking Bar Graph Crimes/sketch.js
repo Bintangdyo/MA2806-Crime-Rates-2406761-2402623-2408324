@@ -18,7 +18,7 @@
  }
  
  function setup(){
-   createCanvas(1500, 1500);
+   createCanvas(1500, 1100);
    
    minVal = min(dataset.getColumn("Crime Rates (t)"));
    maxVal = max(dataset.getColumn("Crime Rates(t)"));
